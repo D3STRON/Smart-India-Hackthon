@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "297963442574",
+    "firebase_url": "https://smart-india-hackthon.firebaseio.com",
+    "project_id": "smart-india-hackthon",
+    "storage_bucket": "smart-india-hackthon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297963442574:android:1466ebe93dba102e",
+        "android_client_info": {
+          "package_name": "com.example.sihagriculture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297963442574-jr406cuqj0qng0pip73as8lvvvlnb5u5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sihagriculture",
+            "certificate_hash": "45e1a9f810c4d5ce0512aadf0fd5c89a7450f73c"
+          }
+        },
+        {
+          "client_id": "297963442574-rm7savmhhv0c3sriq74e5am59uufl0nd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC643Szj_M704GhnPrN-z18nh_o8BfIwfo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297963442574-rm7savmhhv0c3sriq74e5am59uufl0nd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

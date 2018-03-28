@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SihAgriculture</string>
+    <string-array name="cropnames">
+
+        <item />
+        <item>~select the crop you want to sell</item>
+        <item>wheat</item>
+        <item>bajra</item>
+        <item>jawor</item>
+        <item>barley</item>
+        <item>oats</item>
+        <item>rice</item>
+        <item>moong</item>
+
+
+    </string-array>
+</resources>
