@@ -5,109 +5,65 @@ package com.example.sihagriculture;
  */
 
 public class MarketSellModel {
-    public String latitude , longitude, distance, id, sellerid, sellername, sellerlocation, description, dateuploaded, priceperunit, maxamount;
+    public String priceperunit, sellid, maxquantity, productname, producttype, productdesc;
 
-    public MarketSellModel(String latitude, String longitude, String distance, String id, String sellerid, String sellername, String sellerlocation, String description, String dateuploaded, String priceperunit, String maxamount) {
-        this.latitude = latitude;
-        this.longitude = longitude;
-        this.distance = distance;
-        this.id = id;
-        this.sellerid = sellerid;
-        this.sellername = sellername;
-        this.sellerlocation = sellerlocation;
-        this.description = description;
-        this.dateuploaded = dateuploaded;
+    public MarketSellModel(String priceperunit, String sellid, String maxquantity, String productname, String producttype, String productdesc) {
         this.priceperunit = priceperunit;
-        this.maxamount = maxamount;
-    }
-
-
-
-    public String getLatitude() {
-        return latitude;
-    }
-
-    public void setLatitude(String latitude) {
-        this.latitude = latitude;
-    }
-
-    public String getLongitude() {
-        return longitude;
-    }
-
-    public void setLongitude(String longitude) {
-        this.longitude = longitude;
-    }
-
-    public String getDistance() {
-        return distance;
-    }
-
-    public void setDistance(String distance) {
-        this.distance = distance;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getSellerid() {
-        return sellerid;
-    }
-
-    public void setSellerid(String sellerid) {
-        this.sellerid = sellerid;
-    }
-
-    public String getSellername() {
-        return sellername;
-    }
-
-    public void setSellername(String sellername) {
-        this.sellername = sellername;
-    }
-
-    public String getSellerlocation() {
-        return sellerlocation;
-    }
-
-    public void setSellerlocation(String sellerlocation) {
-        this.sellerlocation = sellerlocation;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getDateuploaded() {
-        return dateuploaded;
-    }
-
-    public void setDateuploaded(String dateuploaded) {
-        this.dateuploaded = dateuploaded;
+        this.sellid = sellid;
+        this.maxquantity = maxquantity;
+        this.productname = productname;
+        this.producttype = producttype;
+        this.productdesc = productdesc;
     }
 
     public String getPriceperunit() {
         return priceperunit;
     }
+MarketSellModel()
+{
 
+}
     public void setPriceperunit(String priceperunit) {
         this.priceperunit = priceperunit;
     }
 
-    public String getMaxamount() {
-        return maxamount;
+    public String getSellid() {
+        return sellid;
     }
 
-    public void setMaxamount(String maxamount) {
-        this.maxamount = maxamount;
+    public void setSellid(String sellid) {
+        this.sellid = sellid;
+    }
+
+    public String getMaxquantity() {
+        return maxquantity;
+    }
+
+    public void setMaxquantity(String maxquantity) {
+        this.maxquantity = maxquantity;
+    }
+
+    public String getProductname() {
+        return productname;
+    }
+
+    public void setProductname(String productname) {
+        this.productname = productname;
+    }
+
+    public String getProducttype() {
+        return producttype;
+    }
+
+    public void setProducttype(String producttype) {
+        this.producttype = producttype;
+    }
+
+    public String getProductdesc() {
+        return productdesc;
+    }
+
+    public void setProductdesc(String productdesc) {
+        this.productdesc = productdesc;
     }
 }

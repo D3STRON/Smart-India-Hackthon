@@ -5,7 +5,7 @@ package com.example.sihagriculture;
  */
 
 public class FarmerAdModel {
-    public String cropname;
+    public String productname;
     public String maxamount;
     public String priceperunit;
     public String id;
@@ -29,8 +29,8 @@ public class FarmerAdModel {
 
     public String dateuploaded;
 
-    public FarmerAdModel(String cropname, String maxamount, String priceperunit, String id, String description, String dateuploaded) {
-        this.cropname = cropname;
+    public FarmerAdModel(String productname, String maxamount, String priceperunit, String id, String description, String dateuploaded) {
+        this.productname = productname;
         this.maxamount = maxamount;
         this.priceperunit = priceperunit;
         this.id = id;
@@ -38,12 +38,12 @@ public class FarmerAdModel {
         this.dateuploaded = dateuploaded;
     }
 
-    public String getCropname() {
-        return cropname;
+    public String getProductname() {
+        return productname;
     }
 
-    public void setCropname(String cropname) {
-        this.cropname = cropname;
+    public void setProductname(String productname) {
+        this.productname = productname;
     }
 
     public String getMaxamount() {

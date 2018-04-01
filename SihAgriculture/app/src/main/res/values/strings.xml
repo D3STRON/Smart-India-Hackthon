@@ -4,13 +4,52 @@
 
         <item />
         <item>~select the crop you want to sell</item>
-        <item>wheat</item>
-        <item>bajra</item>
-        <item>jawor</item>
-        <item>barley</item>
-        <item>oats</item>
-        <item>rice</item>
-        <item>moong</item>
+        <item>mint</item>
+        <item>lemon grass</item>
+        <item>balmrosa</item>
+
+
+    </string-array>
+    <string-array name="seednames">
+
+        <item />
+        <item>~select the crop you want to sell</item>
+        <item>Mint</item>
+        <item>Lemon grass</item>
+        <item>Balmrosa</item>
+
+
+    </string-array>
+    <string-array name="toolnames">
+
+        <item />
+        <item>~select the crop you want to sell</item>
+        <item>Tractor</item>
+        <item>Grain Saperator</item>
+        <item>Hand Tractor</item>
+
+
+    </string-array>
+
+    <string-array name="fertilizernames">
+
+        <item />
+        <item>~select the crop you want to sell</item>
+        <item>Urea</item>
+        <item>Potash</item>
+        <item>Nitrogen</item>
+
+
+    </string-array>
+    \
+
+    <string-array name="pesticidenames">
+
+        <item />
+        <item>~select the crop you want to sell</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
 
 
     </string-array>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <com.example.sihagriculture.ChatView
+        android:layout_width="match_parent"
+        android:id="@+id/chat_view"
+
+        android:layout_height="match_parent"/>
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/editTextToSend"
+            android:layout_width="270dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingStart="12dp"
+            android:hint="Type your query here"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/fib"
+            android:layout_toStartOf="@+id/fib"
+            android:background="@drawable/rounded_edit_text" />
+
+        <ImageButton
+            android:id="@+id/fib"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignBottom="@+id/editTextToSend"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/circular_button"
+            android:src="@drawable/ic_send" />
+    </RelativeLayout>
+
+</RelativeLayout>
